@@ -49,7 +49,7 @@ const Experiece = () => {
       <div className="experience-card-container">
         <Card>
           <Card.Header as="h4" className="text-center">
-            Preious Employer
+            Previous Employer
           </Card.Header>
           <Card.Body>
             <Card.Title>

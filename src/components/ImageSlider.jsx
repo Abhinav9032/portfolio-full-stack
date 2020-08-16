@@ -15,7 +15,7 @@ const ImageSlider = () => {
           <img src={car01} className="slide overlay" alt="First slide" />
           <Carousel.Caption>
             <h3 id="bright-content-header" className="header-first">
-            API interacting with multiple platoforms 
+            API interacting with multiple platforms 
             </h3>
             <p id="bright-content"></p>
           </Carousel.Caption>
