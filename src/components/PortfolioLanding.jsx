@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Feedback from './Feedback';
 import GetResume from './GetResume';
 import Headings from './Headings';
+import SkillsLogo from './SkillsLogo';
 
 
 const PortfolioLanding = () => {
@@ -17,8 +18,7 @@ const PortfolioLanding = () => {
             <FullstackDetailJumbotron/>
             <Headings id="experience-section" text="Experience"/>
             <Experience/>
-            <Headings id="skill-section" text="My Skills"/>
-            <Skills/>
+            <SkillsLogo/>
             <Headings id="about-section" text="About"/>
             <div className="footer-section">
             <GetResume/>
