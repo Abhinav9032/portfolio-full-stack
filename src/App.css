@@ -160,6 +160,11 @@ ul {
   color: rgba(100, 100, 100, 0.9);
   font-size: 50px;
 }
+
+#skill-header-text{
+  font-size: 20px;
+  color: rgba(1, 11, 100, 1);
+}
 .skills-logo-desc-container {
   background-color: rgba(255, 255, 255, 0.9);
   display: grid;

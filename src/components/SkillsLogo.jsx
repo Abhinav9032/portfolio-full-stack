@@ -188,7 +188,9 @@ const SkillsLogo = () => {
     return(
         <div className="skill-main-container">
             <h3 className="skill-header" id="skill-section">Skills</h3>
+            <p className="skill-header" id="skill-header-text">CLICK TO KNOW MORE..</p>
             <div className="skills-logo-desc-container">
+                
                 <div className="skills-logo">
                 {logoList.map( (logo , index) => <img src={logo}  alt="Logo" onMouseOver={mouseOver(index)} onMouseOut={mouseOut(index)} onClick={handleLogoClick(index)}/> )}
                 </div>
