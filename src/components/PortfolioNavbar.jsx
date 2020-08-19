@@ -7,12 +7,12 @@ import "./../App.css";
 const PortfolioNavbar = () => {
   const navbarItemStyle = {
     marginLeft: "10px",
-    color:"#fff",
+    color:"#666",
     fontSize:'20px'
   };
   return (
     <>
-      <Navbar bg="primary" variant="dark">
+      <Navbar bg="light" variant="light">
         <Navbar.Brand href="#home">
           <img
             src={logo}

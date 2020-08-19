@@ -3,7 +3,7 @@ import React from 'react'
 const Headings = (props)=> {
     return(
         <div id={props.id} className="heading">
-            <h2>{props.text}</h2>
+            <h3>{props.text}</h3>
         </div>
     )
 }

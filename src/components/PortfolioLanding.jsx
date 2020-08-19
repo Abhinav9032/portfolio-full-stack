@@ -3,11 +3,11 @@ import PortfolioNavbar from './PortfolioNavbar'
 import ImageSlider from './ImageSlider';
 import FullstackDetailJumbotron from './FullstackDetailJumbotron';
 import Experience from './Experience';
-import Skills from './Skills';
 import Feedback from './Feedback';
 import GetResume from './GetResume';
 import Headings from './Headings';
 import SkillsLogo from './SkillsLogo';
+import ExperienceCards from './ExperienceCards';
 
 
 const PortfolioLanding = () => {
@@ -16,8 +16,7 @@ const PortfolioLanding = () => {
             <PortfolioNavbar/>
             <ImageSlider />
             <FullstackDetailJumbotron/>
-            <Headings id="experience-section" text="Experience"/>
-            <Experience/>
+            <ExperienceCards/>
             <SkillsLogo/>
             <Headings id="about-section" text="About"/>
             <div className="footer-section">
