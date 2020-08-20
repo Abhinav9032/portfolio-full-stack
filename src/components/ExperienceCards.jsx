@@ -89,7 +89,7 @@ const ExperienceCards = () => {
               My Responsibilities :
               <p className="blog-post-text" id="tasks">
                 <ul>
-                  <li>Maintain 100+ microservices deployed on cloud</li>
+                  <li>Developer for service layer constructed on Spring framework.</li>
                   <li>
                   API for android app for real time geo positioning
                   </li>

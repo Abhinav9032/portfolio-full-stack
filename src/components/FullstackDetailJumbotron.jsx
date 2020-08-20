@@ -25,7 +25,7 @@ const FullstackDetailJumbotron = () => {
           <li>Devote most of my day either in learning
           or applying something new.</li>
           <li>
-          A ployglot programmer who is capable to
+          A polyglot programmer who is capable to
           create complete applications which include User-Interface , Backend
           Service/s and Database.
           </li>
