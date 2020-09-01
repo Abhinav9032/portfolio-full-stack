@@ -4,38 +4,12 @@ import tcslogo from "./../assets/TCS-Logo.jpg";
 import Button from "react-bootstrap/Button";
 
 const ExperienceCards = () => {
-  function mouseOver(event) {
-    console.log(event.target.lastElementChild);
-    const image = document.getElementById("image-id");
-    image.style.transform = "translateX(-8rem)";
-    image.style.transition = "transform 0.6s linear";
-  }
-
-  function mouseOverTcs(event) {
-    console.log(event.target.lastElementChild);
-    const image = document.getElementById("image-id-tcs");
-    image.style.transform = "translateX(-8rem)";
-    image.style.transition = "transform 0.6s linear";
-  }
-  
-
-  function buttonMouseOver(event) {
-    const button = document.getElementById("visit-button");
-    button.style.backgroundImage =
-      "linear-gradient(to right ,#4facfe  0%,#00f2fe 100% )";
-  }
-
-  function buttonMouseOut(event) {
-    const button = document.getElementById("visit-button");
-    button.style.backgroundImage =
-      "linear-gradient(to right ,#00f2fe  0%,#4facfe 100% )";
-  }
-
+ 
   return (
     <>
      <h3 className="skill-header" id="experience-section">Experience</h3>
       <div className="blog-post-container">
-        <div className="blog-post" onMouseOver={mouseOver}>
+        <div className="blog-post">
           <div className="blog-post-img" id="image-id">
             <img src={cerner} alt="Cerner" />
           </div>
@@ -75,7 +49,7 @@ const ExperienceCards = () => {
 
 
       <div className="blog-post-container">
-        <div className="blog-post" onMouseOver={mouseOverTcs}>
+        <div className="blog-post">
           <div className="blog-post-img" id="image-id-tcs">
             <img src={tcslogo} alt="TCS" />
           </div>

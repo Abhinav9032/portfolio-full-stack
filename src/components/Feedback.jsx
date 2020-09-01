@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Container from "react-bootstrap/Container";
 import Alert from "react-bootstrap/Alert";
+import me from './../assets/logo512.png'
 
 const Feedback = () => {
   const [show, setShow] = useState(false);
@@ -12,6 +13,8 @@ const Feedback = () => {
     <div className="contact-me">
       <Jumbotron fluid >
         <Container>
+
+  
           <h1>Wanna have a word with me ?</h1>
           <p>
             Since you went though my Portfolio and saw what I know and how I can
@@ -62,6 +65,7 @@ const Feedback = () => {
               <Button onClick={() => setShow(true)}>Submit Feedback</Button>
             )}
           </Form>
+          <img src={me} alt="avatar" className="myImage"/>
         </Container>
         <div className="additional-height"/>
       </Jumbotron>

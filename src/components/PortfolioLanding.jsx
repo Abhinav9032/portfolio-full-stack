@@ -19,11 +19,9 @@ const PortfolioLanding = () => {
             <ExperienceCards/>
             <SkillsLogo/>
             <Headings id="about-section" text="About"/>
-            <div className="footer-section">
-            <GetResume/>
-            <Feedback/>
             
-            </div>
+            <Feedback/>
+            <GetResume/>
         </div>
     );
 };
