@@ -5,7 +5,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 import me from './../assets/logo512.png'
 import link from './../assets/skillLogos/external-link-alt-solid.svg'
-import Resume from './../assets/AbhinavResume.pdf'
+import Resume from './../assets/Abhinav_Resume_09_20.pdf'
 
 
 const GetResume = () => {
@@ -23,7 +23,7 @@ const GetResume = () => {
     <ListGroupItem>Mail  -   abhinav9032@gmail.com</ListGroupItem>
   </ListGroup>
   <Card.Body>
-  <a href={Resume} download="AbhinavResume.pdf">
+  <a href={Resume} download="Abhinav_Resume.pdf">
    <Button variant="primary">Download My Resume</Button>
    </a>
   </Card.Body>
