@@ -79,13 +79,13 @@ const Feedback = () => {
                 />
                 <div class="container">
                   <div class="text-center center-block">
-                    <a href="https://www.facebook.com/bootsnipp">
+                    <a href="https://www.facebook.com/abhinav.mishra.1422409/">
                       <i
                         id="social-fb"
                         class="fa fa-facebook-square fa-3x social"
                       ></i>
                     </a>
-                    <a href="https://twitter.com/bootsnipp">
+                    <a href="https://twitter.com/abhinav9032">
                       <i
                         id="social-tw"
                         class="fa fa-twitter-square fa-3x social"
